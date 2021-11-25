@@ -55,7 +55,7 @@
     <div class="row">
         <div class="col-lg-5 m-auto">
             <div class="card">
-                {#if show}
+                {#if show === true}
                     <div class="card-head"
                          transition:fade="{{delay: 250, duration: 1000}}"
                          class:colour={number>5}>{number > 0 ? number : 0}</div>
